@@ -1,0 +1,89 @@
+@use 'variables';
+
+.carousel {
+    &-inner {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+        gap: 8px;
+    }
+    &-item {
+        height: 299px;
+    }
+    &-img{
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    &-control-next, &-control-prev {
+        height: 32px;
+        margin: auto 0;
+        &-icon, &-icon {
+            background-color: red;
+            border-radius: 50%;
+        }
+    }
+    &-indicators [data-bs-target] {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-bottom: -20px;
+    }
+    &-caption {
+        top: 65%;
+        left: 15%;
+        right: 35%;
+        color: variables.$white;
+    }
+    @media screen and (min-width: 860px) {
+        display: none;
+    }
+}
+.opiniones {
+    margin: 1rem auto 0.5rem;
+    @media screen and (min-width: 467px) {
+        width: 450px;
+    }
+    @media screen and (min-width: 860px) {
+        width: 650px;
+    }
+    &__container {
+        gap: 5px;
+    }
+    &__divi {
+        background-color: variables.$green-ligth;
+        height: 180px;
+        border-radius: 15px;
+        @media screen and (min-width: 320px) {
+            height: 150px;
+        }
+    }
+    img{
+        height: 150px;
+        width: 150px;
+        padding: 1rem;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: auto 0.5rem;
+    }
+    &__paragraph {
+        height: 65%;
+        top: 15%;
+        right: 7%;
+        left: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 15px 0 0 8px;
+        color: variables.$white;
+        @media screen and (max-width: 435px) {
+            font-size: 13px;
+            margin: 15px 0 0 24px;
+        }
+    }
+    @media screen and (min-width: 860px) {
+        display: block;
+    }
+}

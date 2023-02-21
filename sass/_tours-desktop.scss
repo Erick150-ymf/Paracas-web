@@ -1,0 +1,55 @@
+@use 'variables';
+
+.tours__desktop {
+    display: none;
+    @media (min-width: 860px) {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: auto;
+        justify-content: space-evenly;
+        gap: 50px;
+        &__container {
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__paragraph {
+            width: 330px;
+        }
+        &__img {
+            width: 90%;
+            height: 200px;
+            border-radius: 15px;
+            object-fit: cover;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        &__paragraph {
+            // width: 80%;
+            // position: relative;
+            // font-size: 14px;
+            // top: -60px;
+            // color: variables.$white;
+            width: 90%;
+            height: 200px;
+            position: relative;
+            font-size: 18px;
+            top: -200px;
+            color: variables.$white;
+            background-color: variables.$green-ligth;
+            border-radius: 15px;
+            display: none;
+            p {
+                display: flex;
+                align-items: center;
+                width: 90%;
+                height: 100%;
+                text-align: center;
+                margin: auto;
+            }
+        }
+    }
+}

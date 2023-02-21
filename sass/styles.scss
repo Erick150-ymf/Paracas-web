@@ -1,0 +1,29 @@
+@use 'variables';
+@use 'mixins';
+@use 'header';
+@use 'navbar';
+@use 'modal-navbar';
+@use 'about';
+@use 'tours-desktop';
+@use 'tours-mobile';
+@use 'carrousel';
+@use 'footer';
+
+// NOSOSTROS
+@use 'nosotros';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: variables.$font;
+}
+
+.Container {
+    background-color: variables.$semi-white;
+    position: relative;
+    width: 100%;
+}

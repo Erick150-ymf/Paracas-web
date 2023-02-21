@@ -1,0 +1,28 @@
+@use 'variables';
+
+.navbar {
+    display: none;
+    width: 565px;
+    &__item {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link {
+        text-decoration: none;
+        color: black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        height: 30px;
+        width: 95px;
+        font-weight: 500;
+        &:hover {
+            border-bottom: 1px solid black;
+        }
+    }
+    @media (min-width: 860px) {
+        display: block;
+    }
+}
