@@ -1,0 +1,57 @@
+@use '../variables';
+
+.tours {
+    display: none;
+    @media (min-width: 860px) {
+        width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    margin: 1.5rem auto;
+    gap: 50px;
+        &__desktop {
+            position: relative;
+            height: 250px;
+            width: 300px;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+            cursor: pointer;
+            &__img {
+                width: 100%;
+                height: 250px;
+                transition: all 500ms ease-out;
+                @media screen and (min-width: 2400px) {
+                    height: 350px;
+                }
+            }
+            &__paragraph {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: variables.$green-ligth;
+                transition: all 500ms ease-out;
+                opacity: 0;
+                text-align: center;
+                &:hover {
+                    opacity: 1;
+                }
+                p {
+                    margin: auto;
+                    width: 80%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    font-size: 18px;
+                }
+            }
+            @media screen and (min-width: 2400px) {
+                height: 350px;
+                width: 25%;
+            }
+        }
+    }
+}

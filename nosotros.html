@@ -18,7 +18,7 @@
             </div>
             <nav class="navbar">
                 <ul class="navbar__item">
-                    <li><a href="" class="navbar__link">Home</a></li>
+                    <li><a href="./index.html" class="navbar__link">Home</a></li>
                     <li><a href="#tours" class="navbar__link">Tours</a></li>
                     <li><a href="./nosotros.html" class="navbar__link">Nosotros</a></li>
                     <li><a href="mailto:" class="navbar__link">Contact</a></li>
@@ -29,7 +29,7 @@
                 <nav class="modal-navbar">
                     <img class="modal-navbar__close-icon" src="./img/SVG/close.svg" alt="close icon">
                     <ul class="modal-navbar__item">
-                        <li><img src="./img/SVG/house-door-fill.svg" alt="home"><a href="" class="modal-navbar__link">Home</a></li>
+                        <li><img src="./img/SVG/house-door-fill.svg" alt="home"><a href="./index.html" class="modal-navbar__link">Home</a></li>
                         <li><img src="./img/SVG/bus-front.svg" alt="tpurs"><a href="#tours" class="modal-navbar__link">Tours</a></li>
                         <li><img src="./img/SVG/people-fill.svg" alt="nosotros"><a href="./nosotros.html" class="modal-navbar__link">Nosotros</a></li>
                         <li><img src="./img/SVG/person-fill.svg" alt="contact"><a href="mailto:" class="modal-navbar__link">Contact</a></li>
@@ -39,6 +39,21 @@
             <!-- Final modal navbar -->
         </header>
         <section class="content">
+            <div class="nosotros__description">
+                <h2>1.- ¿Quiuénes somos?</h2>
+                <br>
+                <h3>Paracas Expediciones "El Pionero"</h3>
+                <p>Somos una empresa dedicada al rubro del turismo dando un servicio de calidad a nuestros turistas, además de ofrecer otros servicios de turismo que estan fuera de Paracas.</p>
+                <p>La empresa fue fundada en el año: 2018</p>
+                <p>Actualmente nos encontramos nos aliamos con la empresa "Wish Island" la cual recién fue creada y en cooperación hemos logrado manterner la confianza con los turistas que recomiendan nuestro servicio.</p>
+                <br><br>
+                <h2>2.- ¿Dónde nos ubicamos?</h2>
+                <br>
+                <p>Nos ubicamós en la av..........</p>
+            </div>
+            <!-- mapas -->
+            <div id="map"></div>
+            <!-- fin mapas -->
             <!-- Inicio opiniones de clientes -->
             <div id="carouselExampleAutoplaying" class="carousel slide opiniones" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -51,7 +66,7 @@
                 </div>
                 <div class="carousel-inner opiniones__container">
                     <div class="carousel-item opiniones__divi opiniones__divi active">
-                        <img src="./img/Tours/Tour-1.png" class="opiniones_op1 d-block"  alt="Cliente-1">
+                        <img src="./img/Clientes/Cliente-1.jpeg" class="opiniones_op1 d-block"  alt="Cliente-1">
                         <div class="opiniones__paragraph carousel-caption">
                             <h5>First slide label</h5>
                             <p>Some representative placeholder content for the first slide.</p>
@@ -128,7 +143,7 @@
         </div>
         </footer>
     </main>
-    
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChi5sZI1Q7v8WoV_e6t44j-EITPhK_-7s&callback=initMap"></script>    
     <script src="./src/bootstrap.bundle.min.js"></script>
     <script src="./src/main.js"></script>
 </body>

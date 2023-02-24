@@ -1,0 +1,44 @@
+@use '../variables';
+
+.carousel {
+    &-inner {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+        gap: 8px;
+    }
+    &-item {
+        height: 299px;
+    }
+    &-img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    &-control-next, &-control-prev {
+        height: 32px;
+        margin: auto 0;
+        &-icon, &-icon {
+            background-color: red;
+            border-radius: 50%;
+        }
+    }
+    &-indicators [data-bs-target] {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-bottom: -20px;
+    }
+    &-caption {
+        top: 65%;
+        left: 15%;
+        right: 35%;
+        color: variables.$white;
+    }
+    @media screen and (min-width: 860px) {
+        display: none;
+    }
+}

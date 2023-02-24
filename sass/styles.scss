@@ -1,16 +1,21 @@
 @use 'variables';
 @use 'mixins';
-@use 'header';
-@use 'navbar';
-@use 'modal-navbar';
-@use 'about';
-@use 'tours-desktop';
-@use 'tours-mobile';
-@use 'carrousel';
-@use 'footer';
+@use './recursos/header';
+@use './recursos/navbar';
+@use './recursos/modal-navbar';
+@use './recursos/about';
+@use './index/tours-desktop';
+@use './recursos/opiniones';
+@use './recursos/carrousel';
+@use './recursos/footer';
 
 // NOSOSTROS
-@use 'nosotros';
+@use './nosotros/nosotros';
+
+/* Inicio de Paginas */ 
+@use '../sass/paginas/ballestas';
+/* Fin de Paginas */  
+
 * {
     margin: 0;
     padding: 0;
@@ -26,4 +31,14 @@ body {
     background-color: variables.$semi-white;
     position: relative;
     width: 100%;
+}
+
+#map {
+    height: 300px;
+    width: 80%;
+    margin: 1rem auto;
+    @media screen and (min-width: 860px) {
+        height: 400px;
+        width: 50%;
+    }
 }
