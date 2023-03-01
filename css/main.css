@@ -606,7 +606,7 @@
   justify-content: flex-end;
 }
 .nosotros__btn--maps {
-  background-color: #3789BE;
+  background-color: rgba(135, 207, 235, 0.726);
   width: 50%;
   height: 45px;
   border-radius: 20px 0 0 20px;
@@ -623,6 +623,10 @@
   .nosotros__btn--maps {
     width: 20%;
   }
+}
+.nosotros__btn--maps:hover {
+  background-color: #3789BE;
+  transition: 0.75s;
 }
 
 .Ballestas {
