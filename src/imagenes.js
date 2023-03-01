@@ -8,25 +8,25 @@ let thumbailsImage6 = document.getElementById('i6');
 let thumbailsImage7 = document.getElementById('i7');
 
 thumbailsImage1.addEventListener('click', function() {
-    location.href = "../tours/ballestas.html"
+    location.href = "./ballestas.html"
 });
 thumbailsImage2.addEventListener('click', function() {
-    location.href = "../tours/playas-reserva.html"
+    location.href = "./playas-reserva.html"
 });
 thumbailsImage3.addEventListener('click', function() {
-    location.href = "../tours/dunas.html"
+    location.href = "./dunas.html"
 });
 thumbailsImage4.addEventListener('click', function() {
-    location.href = "../tours/ica.html"
+    location.href = "./ica.html"
 });
 thumbailsImage5.addEventListener('click', function() {
-    location.href = "../tours/nazca.html"
+    location.href = "./nazca.html"
 });
 thumbailsImage6.addEventListener('click', function() {
-    location.href = "../tours/full-day.html"
+    location.href = "./full-day.html"
 });
 thumbailsImage7.addEventListener('click', function() {
-    location.href = "../tours/sanboarding.html"
+    location.href = "./sanboarding.html"
 });
 
 // Ingresar al link de la imagen en mobile
@@ -40,23 +40,23 @@ let img6 = document.querySelector ('#im6');
 let img7 = document.querySelector ('#im7');
 
 img1.addEventListener('click', function() {
-    location.href = "../tours/ballestas.html"
+    location.href = "./ballestas.html"
 });
 img2.addEventListener('click', function() {
-    location.href = "../tours/playas-reserva.html"
+    location.href = "./playas-reserva.html"
 });
 img3.addEventListener('click', function() {
-    location.href = "../tours/dunas.html"
+    location.href = "./dunas.html"
 });
 img4.addEventListener('click', function() {
-    location.href = "../tours/ica.html"
+    location.href = "./ica.html"
 });
 img5.addEventListener('click', function() {
-    location.href = "../tours/nazca.html"
+    location.href = "./nazca.html"
 });
 img6.addEventListener('click', function() {
-    location.href = "../tours/full-day.html"
+    location.href = "./full-day.html"
 });
 img7.addEventListener('click', function() {
-    location.href = "../tours/sanboarding.html"
+    location.href = "./sanboarding.html"
 });
