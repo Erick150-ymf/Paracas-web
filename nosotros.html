@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paracas Expediciones "El Pionero"</title>
+    <link rel="icon" href="./img/Paracas-img.jpg">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -19,7 +20,7 @@
             <nav class="navbar">
                 <ul class="navbar__item">
                     <li><a href="./index.html" class="navbar__link">Home</a></li>
-                    <li><a href="#tours" class="navbar__link">Tours</a></li>
+                    <li><a href="./index.html" class="navbar__link">Tours</a></li>
                     <li><a href="./nosotros.html" class="navbar__link">Nosotros</a></li>
                     <li><a href="mailto:" class="navbar__link">Contact</a></li>
                 </ul>
@@ -49,10 +50,13 @@
                 <br><br>
                 <h2>2.- ¿Dónde nos ubicamos?</h2>
                 <br>
-                <p>Nos ubicamós en la av..........</p>
+                <p>Nos ubicamós en: Alberto Tataje Mz D Lt 4, Paracas 11550</p>
             </div>
             <!-- mapas -->
-            <div id="map"></div>
+            <div class="nosotros__btn">
+                <button id="map" class="nosotros__btn--maps" type="button">Google Maps</button>
+            </div>
+            <div class="nosotros__map"><img class="nosotros__map--img" src="./img/Tours/ubicación.PNG" alt="ubicación"></div>
             <!-- fin mapas -->
             <!-- Inicio opiniones de clientes -->
             <div id="carouselExampleAutoplaying" class="carousel slide opiniones" data-bs-ride="carousel">
@@ -143,8 +147,8 @@
         </div>
         </footer>
     </main>
-    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChi5sZI1Q7v8WoV_e6t44j-EITPhK_-7s&callback=initMap"></script>    
     <script src="./src/bootstrap.bundle.min.js"></script>
     <script src="./src/main.js"></script>
+    <script src="./src/nosotros/map.js"></script>
 </body>
 </html>
