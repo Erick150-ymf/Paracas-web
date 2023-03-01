@@ -14,12 +14,12 @@
         color: variables.$white;
         font-weight: 500;
         @media screen and (min-width: 410px) {
-            top: 9%;
+            top: 18%;
             font-size: 12px;
         }
         @media (min-width: 520px) {
             font-size: 14px;
-            top: 8%;
+            top: 17%;
         }
         @media (min-width: 580px) {
             top: 11%;
@@ -29,14 +29,6 @@
             top: 12%;
             left: 7.5%;
             font-size: 26px;
-        }
-        @media (min-width: 1040px) {
-            top: 12%;
-            font-size: 26px;
-        }
-        @media (min-width: 1440px) {
-            top: 12%;
-            font-size: 30px;
         }
         @media (min-width: 2400px) {
             top: 10%;
@@ -54,11 +46,7 @@
         font-weight: 500;
         @media (min-width: 410px) {
             width: 48%;
-            top: 11%;
-        }
-        @media (min-width: 520px) {
-            width: 30%;
-            top: 10%;
+            top: 19%;
         }
         @media (min-width: 580px) {
             font-size: 20px;
@@ -66,7 +54,7 @@
             top: 14%;
         }
         @media (min-width: 620px) {
-            font-size: 20px;
+            // font-size: 20px;
             width: 31%;
         }
         @media (min-width: 860px) {
@@ -76,15 +64,7 @@
             font-size: 28px;
         }
         @media (min-width: 1040px) {
-            top: 15%;
             width: 400px;
-            left: 7.5%;
-            font-size: 28px;
-        }
-        @media (min-width: 1440px) {
-            font-size: 34px;
-            top: 15%;
-            left: 7.5%;
         }
         @media screen and (min-width: 2400px) {
             top: 14%;
@@ -120,7 +100,6 @@
     }
     &__img {
         border-radius: 15px;
-        margin-right: 66px;
         &--image {
             width: 100%;
             border-radius: inherit;

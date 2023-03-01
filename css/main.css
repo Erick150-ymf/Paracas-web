@@ -846,14 +846,14 @@
 }
 @media screen and (min-width: 410px) {
   .Playas__title {
-    top: 9%;
+    top: 18%;
     font-size: 12px;
   }
 }
 @media (min-width: 520px) {
   .Playas__title {
     font-size: 14px;
-    top: 8%;
+    top: 17%;
   }
 }
 @media (min-width: 580px) {
@@ -867,18 +867,6 @@
     top: 12%;
     left: 7.5%;
     font-size: 26px;
-  }
-}
-@media (min-width: 1040px) {
-  .Playas__title {
-    top: 12%;
-    font-size: 26px;
-  }
-}
-@media (min-width: 1440px) {
-  .Playas__title {
-    top: 12%;
-    font-size: 30px;
   }
 }
 @media (min-width: 2400px) {
@@ -900,13 +888,7 @@
 @media (min-width: 410px) {
   .Playas__paragraph {
     width: 48%;
-    top: 11%;
-  }
-}
-@media (min-width: 520px) {
-  .Playas__paragraph {
-    width: 30%;
-    top: 10%;
+    top: 19%;
   }
 }
 @media (min-width: 580px) {
@@ -918,7 +900,6 @@
 }
 @media (min-width: 620px) {
   .Playas__paragraph {
-    font-size: 20px;
     width: 31%;
   }
 }
@@ -932,17 +913,7 @@
 }
 @media (min-width: 1040px) {
   .Playas__paragraph {
-    top: 15%;
     width: 400px;
-    left: 7.5%;
-    font-size: 28px;
-  }
-}
-@media (min-width: 1440px) {
-  .Playas__paragraph {
-    font-size: 34px;
-    top: 15%;
-    left: 7.5%;
   }
 }
 @media screen and (min-width: 2400px) {
@@ -984,7 +955,6 @@
 }
 .Reserva__img {
   border-radius: 15px;
-  margin-right: 66px;
 }
 .Reserva__img--image {
   width: 100%;
@@ -1587,6 +1557,7 @@
 
 body {
   font-family: "Jockey One", sans-serif;
+  height: 100%;
 }
 
 .Container {
