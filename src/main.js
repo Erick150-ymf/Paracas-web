@@ -17,3 +17,11 @@ closeModal.addEventListener('click', () => {
 function showPolicy() {
     policywnd = window.open('http://www.parkingcrew.net/privacy.html', 'pcrew_policy', 'width=890,height=330,left=200,top=200,menubar=no,status=yes,toolbar=no'); policywnd.focus();
 }
+
+// link inicio
+
+let Logo = document.querySelector('.header__logo');
+
+Logo.addEventListener('click', function () {
+    location.href = './index.html'
+})

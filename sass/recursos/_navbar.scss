@@ -22,8 +22,53 @@
         &:hover {
             border-bottom: 1px solid black;
         }
+        a {
+            background-color: variables.$white;
+            border: none;
+            color: black;
+        }
+        
     }
     @media (min-width: 860px) {
         display: block;
     }
+}
+.dropdown {
+    &-toggle {
+            border-radius: 0;
+        &:hover {
+            background-color: transparent;
+            border-radius: 0;
+            color: black;
+            border-bottom: 1px solid black;
+            border-color: variables.$white;
+        }
+        &::after {
+            display: none;
+        }
+    }
+    &-menu {
+        --bs-dropdown-link-active-color: black;
+        --bs-dropdown-link-active-bg: hsla(228, 6%, 17%, 0.342);
+    }
+}
+
+.btn{
+    &-secondary {
+        --bs-btn-border-color: transparent;
+        --bs-btn-hover-border-color: transparent;
+        --bs-btn-active-color: black;
+        --bs-btn-active-bg: white;
+        --bs-btn-active-border-color: transparent;
+    }
+    :hover{
+        color: black;
+        background-color: transparent;
+        border-color: variables.$white;
+    }
+}
+.btn.show {
+    color: black;
+    background-color: transparent;
+    border-color: variables.$white;
 }

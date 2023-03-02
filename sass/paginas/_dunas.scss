@@ -7,82 +7,101 @@
     margin: 1rem auto ;
     &__title {
         position: absolute;
-        top: 23%;
-        left: 6.5%;
+        top: 10%;
+        left: 68.5%;
         font-size: 12px;
         z-index: 1;
         color: variables.$white;
         font-weight: 500;
-        @media screen and (min-width: 310px) {
-            top: 23%;
-            left: 6.5%;
-            font-size: 12px;
-        }
         @media (min-width: 520px) {
             font-size: 14px;
-            top: 28%;
+            top: 10%;
+        }
+        @media (min-width: 580px) {
+            top: 17%;
         }
         @media (min-width: 860px) {
-            top: 28%;
-            left: 7.5%;
+            top: 18%;
             font-size: 26px;
         }
         @media (min-width: 1040px) {
-            top: 38%;
-            left: 7.5%;
-            font-size: 26px;
+            top: 14%;
         }
         @media (min-width: 1440px) {
-            top: 44%;
-            left: 7.5%;
-            font-size: 26px;
+            top: 13%;
         }
         @media (min-width: 2400px) {
-            top: 48%;
-            left: 7.5%;
+            top: 10%;
             font-size: 50px;
         }
     }
     &__paragraph {
         position: absolute;
-        width: 55%;
-        top: 26%;
-        left: 6.5%;
-        font-size: 14px;
+        width: 48%;
+        top: 14%;
+        left: 42.5%;
+        font-size: 10px;
         z-index: 1;
         color: variables.$white;
         font-weight: 500;
-        @media (min-width: 310px) {
-            width: 48%;
+        @media (min-width: 390px) {
+            font-size: 12px;
+            top: 15%;
         }
         @media (min-width: 520px) {
-            width: 30%;
-            top: 31%;
+            width: 45%;
+            top: 15%;
+            font-size: 14px;
+        }
+        @media (min-width: 580px) {
+            top: 26%;
+            font-size: 16px;
         }
         @media (min-width: 620px) {
             font-size: 20px;
-            width: 31%;
         }
         @media (min-width: 860px) {
-            top: 32%;
-            width: 300px;
-            left: 7.5%;
+            top: 26%;
             font-size: 28px;
         }
         @media (min-width: 1040px) {
-            top: 42%;
-            width: 400px;
-            left: 7.5%;
-            font-size: 28px;
+            top: 25%;
         }
         @media (min-width: 1440px) {
-            top: 48%;
-            left: 7.5%;
+            top: 24%;
         }
         @media screen and (min-width: 2400px) {
-            top: 52%;
+            top: 20%;
             font-size: 55px;
-            width: 650px;
         }
+    }
+}
+
+.Information {
+    &__text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
+            width: 70%;
+        }
+    }
+    &__img {
+        width: 95%;
+        margin: auto;
+        &--image2 {
+            width: 100%;
+        }
+    }
+}
+.desktop {
+    display: none;
+    @media screen and (min-width: 580px) {
+        display: flex;
+    }
+}
+.mobile {
+    @media screen and (min-width: 580px) {
+        display: none;
     }
 }

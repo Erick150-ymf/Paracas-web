@@ -5,7 +5,6 @@ let thumbailsImage3 = document.getElementById('i3');
 let thumbailsImage4 = document.getElementById('i4');
 let thumbailsImage5 = document.getElementById('i5');
 let thumbailsImage6 = document.getElementById('i6');
-let thumbailsImage7 = document.getElementById('i7');
 
 thumbailsImage1.addEventListener('click', function() {
     location.href = "./ballestas.html"
@@ -25,9 +24,6 @@ thumbailsImage5.addEventListener('click', function() {
 thumbailsImage6.addEventListener('click', function() {
     location.href = "./full-day.html"
 });
-thumbailsImage7.addEventListener('click', function() {
-    location.href = "./sanboarding.html"
-});
 
 // Ingresar al link de la imagen en mobile
 
@@ -37,7 +33,6 @@ let img3 = document.querySelector ('#im3');
 let img4 = document.querySelector ('#im4');
 let img5 = document.querySelector ('#im5');
 let img6 = document.querySelector ('#im6');
-let img7 = document.querySelector ('#im7');
 
 img1.addEventListener('click', function() {
     location.href = "./ballestas.html"
@@ -56,7 +51,4 @@ img5.addEventListener('click', function() {
 });
 img6.addEventListener('click', function() {
     location.href = "./full-day.html"
-});
-img7.addEventListener('click', function() {
-    location.href = "./sanboarding.html"
 });

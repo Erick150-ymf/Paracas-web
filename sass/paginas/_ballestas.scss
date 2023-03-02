@@ -13,9 +13,6 @@
         z-index: 1;
         color: variables.$white;
         font-weight: 500;
-        @media screen and (min-width: 310px) {
-            font-size: 12px;
-        }
         @media (min-width: 520px) {
             font-size: 14px;
             top: 17%;
@@ -27,17 +24,12 @@
         }
         @media (min-width: 1040px) {
             top: 26%;
-            left: 7.5%;
-            font-size: 26px;
         }
         @media (min-width: 1440px) {
             top: 32%;
-            left: 7.5%;
-            font-size: 26px;
         }
         @media (min-width: 2400px) {
             top: 35%;
-            left: 7.5%;
             font-size: 50px;
         }
     }
@@ -70,12 +62,9 @@
         @media (min-width: 1040px) {
             top: 28%;
             width: 400px;
-            left: 7.5%;
-            font-size: 28px;
         }
         @media (min-width: 1440px) {
             top: 34%;
-            left: 7.5%;
         }
         @media screen and (min-width: 2400px) {
             top: 38%;

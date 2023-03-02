@@ -7,19 +7,14 @@
     margin: 1rem auto ;
     &__title {
         position: absolute;
-        top: 14%;
+        top: 9%;
         left: 6.5%;
         font-size: 12px;
         z-index: 1;
         color: variables.$white;
         font-weight: 500;
-        @media screen and (min-width: 410px) {
-            top: 18%;
-            font-size: 12px;
-        }
         @media (min-width: 520px) {
             font-size: 14px;
-            top: 17%;
         }
         @media (min-width: 580px) {
             top: 11%;
@@ -38,7 +33,7 @@
     &__paragraph {
         position: absolute;
         width: 55%;
-        top: 16%;
+        top: 11%;
         left: 6.5%;
         font-size: 14px;
         z-index: 1;
@@ -46,7 +41,6 @@
         font-weight: 500;
         @media (min-width: 410px) {
             width: 48%;
-            top: 19%;
         }
         @media (min-width: 580px) {
             font-size: 20px;
@@ -54,7 +48,6 @@
             top: 14%;
         }
         @media (min-width: 620px) {
-            // font-size: 20px;
             width: 31%;
         }
         @media (min-width: 860px) {

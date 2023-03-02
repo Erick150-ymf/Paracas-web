@@ -18,8 +18,20 @@
             </div>
             <nav class="navbar">
                 <ul class="navbar__item">
-                    <li><a href="./index.html" class="navbar__link">Home</a></li>
-                    <li><a href="./index.html" class="navbar__link">Tours</a></li>
+                    <li><a href="" class="navbar__link">Home</a></li>
+                    <li>
+                        <div class="navbar__link dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tours</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./ballestas.html">Ballestas</a></li>
+                                    <li><a class="dropdown-item" href="./playas-reserva.html">Reserva Nacional y Playas</a></li>
+                                    <li><a class="dropdown-item" href="./dunas.html">Dunas de Ica</a></li>
+                                    <li><a class="dropdown-item" href="./ica.html">Ciudad de Ica</a></li>
+                                    <li><a class="dropdown-item" href="./nazca.html">Nazca</a></li>
+                                    <li><a class="dropdown-item" href="./full-day.html">Full-Day</a></li>
+                                </ul>
+                        </div>
+                    </li>
                     <li><a href="./nosotros.html" class="navbar__link">Nosotros</a></li>
                     <li><a href="mailto:" class="navbar__link">Contact</a></li>
                 </ul>
@@ -29,10 +41,41 @@
                 <nav class="modal-navbar">
                     <img class="modal-navbar__close-icon" src="./img/SVG/close.svg" alt="close icon">
                     <ul class="modal-navbar__item">
-                        <li><img src="./img/SVG/house-door-fill.svg" alt="home"><a href="./index.html" class="modal-navbar__link">Home</a></li>
-                        <li><img src="./img/SVG/bus-front.svg" alt="tpurs"><a href="./index.html" class="modal-navbar__link">Tours</a></li>
-                        <li><img src="./img/SVG/people-fill.svg" alt="nosotros"><a href="./nosotros.html" class="modal-navbar__link">Nosotros</a></li>
-                        <li><img src="./img/SVG/person-fill.svg" alt="contact"><a href="mailto:" class="modal-navbar__link">Contact</a></li>
+                        <li class="modal-navbar__item__list">
+                            <a href="./index.html" class="modal-navbar__item__list__link">
+                                <img src="./img/SVG/house-door-fill.svg" alt="home">
+                                <span class="modal-navbar__item__list__link--span">Home</span>
+                            </a>
+                        </li>
+                        <li class="modal-navbar__item__list">
+                            <a class="modal-navbar__item__list__link">
+                                <img src="./img/SVG/bus-front.svg" alt="tours">
+                                <span class="modal-navbar__item__list__link--span">Tours</span>
+                                <input type="checkbox" class="modal-navbar__item__list__link--check">
+                            </a>
+                            <div class="modal-navbar__item__list__content">
+                                <ul class="modal-navbar__item__list__content--sub">
+                                    <li class="modal-navbar__item__list__content--li"><a class="modal-navbar__item__list__content--anchor" href="./ballestas.html">Ballestas</a></li>
+                                    <li class="modal-navbar__item__list__content--li"><a class="modal-navbar__item__list__content--anchor" href="./playas-reserva.html">Reserva Naciona y Playas</a></li>
+                                    <li class="modal-navbar__item__list__content--li"><a class="modal-navbar__item__list__content--anchor" href="./dunas.html">Dunas de Ica</a></li>
+                                    <li class="modal-navbar__item__list__content--li"><a class="modal-navbar__item__list__content--anchor" href="./ica.html">Ciudad de Ica</a></li>
+                                    <li class="modal-navbar__item__list__content--li"><a class="modal-navbar__item__list__content--anchor" href="./nazca.html">Nazca</a></li>
+                                    <li class="modal-navbar__item__list__content--li"><a class="modal-navbar__item__list__content--anchor" href="./full-day.html">Full-Day</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="modal-navbar__item__list">
+                            <a href="./nosotros.html" class="modal-navbar__item__list__link">
+                                <img src="./img/SVG/people-fill.svg" alt="nosotros">
+                                <span class="modal-navbar__item__list__link--span">Nosotros</span>
+                            </a>
+                        </li>
+                        <li class="modal-navbar__item__list">
+                            <a href="mailto:" class="modal-navbar__item__list__link">
+                                <img src="./img/SVG/person-fill.svg" alt="contact">
+                                <span class="modal-navbar__item__list__link--span">Contact</span>
+                            </a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -45,7 +88,7 @@
                 <img class="About__container--central" src="./img/Pagina/Ballestas/Portada Ballestas.jpeg" alt="imagen central">
             </article>
             <br>
-            <article class="Information">
+            <article class="Information desktop">
                 <div class="Information__text">
                     <h1>Descripción General</h1>
                     <ul>
@@ -59,6 +102,22 @@
                 </div>
                 <div class="Information__image">
                     <img src="./img/Pagina/Ballestas/lobos.jpeg" alt="Ballestas" class="Information__image--img">
+                </div>
+            </article>
+            <article class="Information mobile">
+                <div class="Information__image">
+                    <img src="./img/Pagina/Ballestas/lobos.jpeg" alt="Ballestas" class="Information__image--img">
+                </div>
+                <div class="Information__text">
+                    <h1>Descripción General</h1>
+                    <ul>
+                        <li>Duración: 2 horas</li>
+                        <li>Geoglifo: "El Candelabro"</li>
+                        <li>Pingüinos de Humboldt</li>
+                        <li>Lobos marinos</li>
+                        <li>Aves marinas: El Guanay, El Piquero, Pelicanos, Zarcillo, Gaviotas, etc...</li>
+                        <li>Delfines y más</li>
+                    </ul>
                 </div>
             </article>
             <br><br>
@@ -113,7 +172,6 @@
         </div>
         </footer>
     </main> 
-    <script src="./src/bootstrap.bundle.min.js"></script>
     <script src="./src/main.js"></script>
 </body>
 </html>
